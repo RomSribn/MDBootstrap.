@@ -14,3 +14,9 @@ html, body, header, #intro{
     margin-top: 80px;
     font-size: 43pt;
 }
+a.nav-link {
+    border-radius: 21px;
+}
+ul.navbar-nav.flex-icons{
+	flex-direction: row;
+}
