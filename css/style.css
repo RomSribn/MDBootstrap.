@@ -7,3 +7,10 @@ html, body, header, #intro{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+
+.headerLor {
+    color: white;
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 43pt;
+}
