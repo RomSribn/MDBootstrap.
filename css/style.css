@@ -3,7 +3,7 @@ html, body, header, #intro{
 }
 
 #intro{
-	background: url(../img/bg.jpeg);
+	background: url(../img/bg.jpeg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -13,6 +13,14 @@ html, body, header, #intro{
     font-weight: bold;
     margin-top: 80px;
     font-size: 43pt;
+}
+.top-nav-collapse{
+	background-color: #24355C;
+}
+@media(max-width: 768px){
+	.navbar:not(.top-nav-collapse){
+		background: #24355C;
+	}
 }
 a.nav-link {
     border-radius: 100px;
