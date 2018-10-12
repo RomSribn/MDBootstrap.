@@ -15,7 +15,7 @@ html, body, header, #intro{
     font-size: 43pt;
 }
 a.nav-link {
-    border-radius: 21px;
+    border-radius: 100px;
 }
 ul.navbar-nav.flex-icons{
 	flex-direction: row;
